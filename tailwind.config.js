@@ -5,9 +5,12 @@ module.exports = {
     './Views/**/*.cshtml'
   ],
   theme: {
-    colors: [
+    extend: {},
+  },
+  daisyui: {
+    themes: [
       {
-        'emeraled-mvc': {
+        'emeraled': {
           'primary': '#66cc8a',
           'primary-focus': '#41be6d',
           'primary-content': '#f9fafb',
@@ -45,13 +48,8 @@ module.exports = {
           '--navbar-padding': '.5rem',
           '--border-btn': '1px',
         },
-        fontFamily: {
-          sans: ['Graphik', 'sans-serif'],
-          serif: ['Merriweather', 'serif'],
-        },
       },
     ],
-    extend: {},
   },
   plugins: [
     require('daisyui'),

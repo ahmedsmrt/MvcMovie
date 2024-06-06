@@ -2,28 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
 
+  :root {
+    @apply bg-primary;
+  }
 
-
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
   html {
-    font-size: 16px;
+    @apply h-screen;
+  }
+
+  body {
+    @apply h-screen;
+  }
+
+  main {
+    @apply h-full;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+@layer components {
+  .btn-blue {
+    @apply bg-blue-500 hover: bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+
+
 }
 
-body {
-  margin-bottom: 60px;
-}
+@layer utilities {
+  .filter-none {
+    filter: none;
+  }
 
-a * {
-  color: lightblue;
+  .filter-grayscale {
+    filter: grayscale(100%);
+  }
 }
