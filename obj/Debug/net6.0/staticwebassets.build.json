@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2BmATCA8ttrE0IJN8T/svw3vw1ayCBihHUpqoa+ajN8=",
+  "Hash": "eu7xvRlyWafLaNpgJz9QZhaeMmFEvC+O4nhn0TwnWpU=",
   "Source": "MvcMovie",
   "BasePath": "_content/MvcMovie",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/input.css"
+    },
+    {
+      "Identity": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/css/output.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "css/output.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/output.css"
     },
     {
       "Identity": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/css/styles.css",

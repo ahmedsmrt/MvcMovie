@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<h2 class="text-4xl">Welcome</h2>
+
+<button type="submit" onclick="addListItems()" class="btn btn-secondary my-6">Get Rick'd</button>
+
+<ul id="itemList">
+
+</ul>
+
+
+<script>
+    function addListItems() {
+        // Get the number of times to add the message
+        var numTimes = @ViewData["NumTimes"];
+        var message = "@ViewData["Message"]";
+
+        var ul = document.getElementById("itemList");
+
+        // Add list items
+        for (var i = 0; i < numTimes; i++) {
+            var li = document.createElement("li");
+            li.textContent = message;
+            ul.appendChild(li);
+        }
+    }
+</script>
