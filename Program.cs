@@ -1,6 +1,22 @@
 using Tailwind;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MvcMovie.Data; // Assuming MvcMovieContext is in the Data folder
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+// This section of code updates the database reference based on environement 
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<MvcMovieContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext")));
+}
+else
+{
+    builder.Services.AddDbContext<MvcMovieContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMvcMovieContext")));
+}
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
