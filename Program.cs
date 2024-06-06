@@ -1,3 +1,5 @@
+using Tailwind;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,5 +25,11 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+if (app.Environment.IsDevelopment())
+{
+    app.RunTailwind("tailwind", "./");
+}
 
 app.Run();

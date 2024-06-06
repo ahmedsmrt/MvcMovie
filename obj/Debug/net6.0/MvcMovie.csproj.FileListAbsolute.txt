@@ -24,3 +24,8 @@
 /Users/AGasim/workspaces/C# training/MvcMovie/obj/Debug/net6.0/MvcMovie.pdb
 /Users/AGasim/workspaces/C# training/MvcMovie/obj/Debug/net6.0/MvcMovie.genruntimeconfig.cache
 /Users/AGasim/workspaces/C# training/MvcMovie/obj/Debug/net6.0/ref/MvcMovie.dll
+/Users/AGasim/workspaces/C# training/MvcMovie/bin/Debug/net6.0/package-lock.json
+/Users/AGasim/workspaces/C# training/MvcMovie/bin/Debug/net6.0/package.json
+/Users/AGasim/workspaces/C# training/MvcMovie/bin/Debug/net6.0/Microsoft.AspNetCore.SpaServices.Extensions.dll
+/Users/AGasim/workspaces/C# training/MvcMovie/bin/Debug/net6.0/Tailwind.Extensions.AspNetCore.dll
+/Users/AGasim/workspaces/C# training/MvcMovie/obj/Debug/net6.0/MvcMovie.csproj.CopyComplete

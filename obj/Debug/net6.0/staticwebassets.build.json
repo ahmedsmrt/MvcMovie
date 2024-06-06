@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s5eZD6qvKQO9qY/Rb1yPtSkUY9pLN9c+EBlHlb1mG7A=",
+  "Hash": "2BmATCA8ttrE0IJN8T/svw3vw1ayCBihHUpqoa+ajN8=",
   "Source": "MvcMovie",
   "BasePath": "_content/MvcMovie",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "/Users/AGasim/workspaces/C# training/MvcMovie/obj/Debug/net6.0/scopedcss/projectbundle/MvcMovie.bundle.scp.css"
     },
     {
-      "Identity": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/css/site.css",
+      "Identity": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/css/input.css",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/",
       "BasePath": "_content/MvcMovie",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/input.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot/css/input.css"
+    },
+    {
+      "Identity": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/css/styles.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
       "Identity": "/Users/AGasim/workspaces/C# training/MvcMovie/wwwroot/favicon.ico",
