@@ -6,4 +6,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+
+  <ItemGroup>
+    <UpToDateCheckBuilt Include="wwwroot/css/site.css" Set="Css" />
+    <UpToDateCheckBuilt Include="tailwind.config.js" Set="Css" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Tailwind.Extensions.AspNetCore" Version="1.0.0-beta2" />
+  </ItemGroup>
+
+  <Target Name="Tailwind" AfterTargets="PostBuild">
+    <Exec Command="npm run tw:build" />
+    <Exec Command="npm run tw:start" />
+  </Target>
 </Project>

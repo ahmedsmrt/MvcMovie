@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "zPwD2akSr6WRuckVoYXC/o8zX78PPizjRgbNs4ZQqy1HURdZwEakwnFKb1cR7DgVXJTWQd0bxl0+eN+kJj2CzQ==",
+  "dgSpecHash": "mx855MMgEIpskICPdFEKOjiYNoWPYsaf0j/3rSCj7YOxUvLVcYqoyfOgnedYN2Mnjtdtf4L27Id2zQP39wOTEg==",
   "success": true,
   "projectFilePath": "/Users/AGasim/workspaces/C# training/MvcMovie/MvcMovie.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/AGasim/.nuget/packages/microsoft.aspnetcore.spaservices.extensions/6.0.1/microsoft.aspnetcore.spaservices.extensions.6.0.1.nupkg.sha512",
+    "/Users/AGasim/.nuget/packages/microsoft.extensions.fileproviders.abstractions/6.0.0/microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "/Users/AGasim/.nuget/packages/microsoft.extensions.fileproviders.physical/6.0.0/microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
+    "/Users/AGasim/.nuget/packages/microsoft.extensions.filesystemglobbing/6.0.0/microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "/Users/AGasim/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/AGasim/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/AGasim/.nuget/packages/tailwind.extensions.aspnetcore/1.0.0-beta2/tailwind.extensions.aspnetcore.1.0.0-beta2.nupkg.sha512"
+  ],
   "logs": []
 }
